@@ -1,0 +1,22 @@
+{
+  "name": "bot",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@orbs-network/ton-access": "^2.3.3",
+    "@ton/ton": "^15.0.0",
+    "@tonconnect/ui": "^2.0.9",
+    "buffer": "^6.0.3",
+    "vue": "^3.4.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "vite": "^5.4.8"
+  }
+}
